@@ -12,3 +12,12 @@ body{
     width: 400px;
     justify-content: space-around;
 }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+}
