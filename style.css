@@ -11,6 +11,7 @@ body{
     align-items: center;
     width: 400px;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .footer{
@@ -19,6 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 500px;
+    margin-top: 20px;
 }
 
 .main-container{
