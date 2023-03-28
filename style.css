@@ -19,5 +19,11 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 500px;
+}
 
+.main-container{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid black;
 }
