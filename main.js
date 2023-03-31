@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     createBoard(16);
 
+    const btn_popup = document.querySelector("#popup");
+    btn_popup.addEventListener("click", function() {
+        let size = getSize();
+        createBoard(size)
+    })
 })
 
 function createBoard(size) {
