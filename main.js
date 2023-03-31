@@ -18,15 +18,12 @@ function createBoard(size) {
     
     for (i = 0; i < numDivs; i++) {
         let div = document.createElement('div');
-        div.style.backgroundColor = "yellow";
+        div.addEventListener("mouseover", function() {
+            div.style.backgroundColor = "black";
+        })
         board.insertAdjacentElement("beforeend", div);
     }
 }
-    // div.addEventListener("mouseover", function() {
-    //     div.style.backgroundColor = "black";
-    // })
-    // // mainContainer.appendChild(div);
-
 
 function getSize() {
     let input = prompt("What will be the size?");
