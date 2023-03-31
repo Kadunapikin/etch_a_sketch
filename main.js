@@ -46,3 +46,6 @@ function colorDiv() {
     }
 }
 
+function setColor(colorChoice) {
+    color = colorChoice;
+}
